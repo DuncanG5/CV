@@ -1,0 +1,54 @@
+html {
+  min-height: 100%;
+}
+body {
+  background-color: #EEEEEE;
+  background-image: linear-gradient(to bottom, #726A95, #709FB0, #A0C1B8, #F4EBC1);
+  background-repeat:no-repeat;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(57, 62, 70, 0), rgba(57, 62, 70, 0.75), rgba(57, 62, 70, 0));
+}
+p {
+  color: #222831;
+}
+.p-hobby{
+  margin: 10px 10px 5px 10px;
+}
+.profile-picture {
+  height: 200px;
+  border-radius: 50px;
+}
+.imgbox  {
+  display: grid;
+  height: 100%;
+  width: 49%;
+  float: left;
+  text-align: center;
+  margin-bottom:30px;
+}
+.imgboxright{
+  display: grid;
+  height: 100%;
+  width: 49%;
+  float:right;
+  text-align: center;
+  margin-bottom:30px;
+}
+.hobby {
+  vertical-align: middle;
+  margin: auto;
+  border-radius: 20px;
+  max-width: 98%;
+  max-height: 98vh;
+}
+.top{
+  width:98%;
+
+  text-align: center;
+  height:100%;
+  min-height: 100%;
+  max-height: 100%;
+}

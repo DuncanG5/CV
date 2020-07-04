@@ -1,19 +1,39 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Duncan's Personal Site</title>
+
   </head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Duncan's Personal Site</title>
+
+  </head>
+
   <body>
+    <a name="top"></a>
+    <div>
+      <a href="index.html"> Home</a>
+      <a href="My Contact Details.html">My Contact Details</a>
+    </div>
     <table cellspacing="20">
       <tr>
-        <td><img src="images/Duncan.jpg"></td>
+        <td><img class="profile-picture" src="images/duncan.jpg"alt="Duncan profile picture" /></td>
         <td><h1> Duncan Glasby</h1>
         <p><em>Scientific Officer at <strong>Bennamann ltd</strong></em></p>
         <br>
         <a href="My Contact Details.html">My Contact Details</a></td>
       </tr>
     </table>
+    <hr>
+    <div>
+      <h3>About me</h3>
+      <p>I am a engineer looking to learn to program in my spare time. This site is a playground for me to try my hand at HTML, CSS and JAVA (to be started).
+      I grew up in both the UK and Belgium, where I went to a french speaking school. Whilst in Belgium I had the privilege to meet people from very diverse backgrounds and learnt from a young age to get  along with people from different cultures.
+      Whilst at University I discovered programming through Matlab and have since been learning to code a variety of languages. I have always been into sport and thrive best when pushing myself with others.</p>
+
+    </div>
+
     <hr>
     <h3>Education</h3>
     <ul>
@@ -33,7 +53,7 @@
       <tbody>
         <tr>
           <td>2016 - current</td>
-          <td>Scientific Officer at Bennamann</td>
+          <td>Scientific Officer at Bennamann ltd</td>
         </tr>
         <tr>
           <td>2013-2015</td>
@@ -49,11 +69,11 @@
           <td>
             <table>
               <tr>
-                <td>Pipework instalation</td>
-                <td>⭐⭐⭐★★</td>
+                <td>html</td>
+                <td>⭐⭐★★★</td>
               </tr>
               <tr>
-                <td>Welding</td>
+                <td>css</td>
                 <td>⭐⭐★★★</td>
               </tr>
             </table>
@@ -66,7 +86,7 @@
               </tr>
               <tr>
                 <td>Microsoft Office</td>
-                <td>⭐⭐⭐★★</td>
+                <td>⭐⭐⭐⭐★</td>
               </tr>
             </table>
           </td>
@@ -76,24 +96,19 @@
     </table>
     <hr>
     <h3>My Hobbies</h3>
-    <ol>
-      <li>Craft</li>
-      <ol type ="a">
-        <li><a href="https://www.facebook.com/photo.php?fbid=10214732360924319&set=pb.1283311763.-2207520000.0.&type=3&theater">Crochet</a></li>
-        <li>Knitting</li>
-        <li><a href="https://www.facebook.com/photo.php?fbid=10152860614538000&set=t.732698926&type=3&theater">Sewing</a></li>
-        <li>Model Aircraft</li>
-        <li>Woodworking</li>
-      </ol>
-      <li>Sport</li>
-      <ol type="a">
-        <li>Badminton</li>
-        <li><a href="https://www.facebook.com/photo.php?fbid=10156355379229657&set=t.732698926&type=3&theater">Windsurfing</a></li>
-        <li><a href="https://www.facebook.com/photo.php?fbid=2185642994788286&set=t.732698926&type=3&theater">Surfing</a></li>
-        <li><a href="https://www.facebook.com/photo.php?fbid=10161008909330722&set=t.732698926&type=3&theater">Rock Climbing</a></li>
-        <li>Running</li>
-        <li>Football</li>
-      </ol>
-    </ol>
+    <div class="imgbox">
+      <p class="p-hobby">Crochet</p><img class="hobby" src="images/crochet.jpg" alt="crochet lamb" />
+      <p class="p-hobby">Crochet octopuss</p><img class="hobby" src="images/crochet-octopuss.jpg" alt="Octopuss for prennies">
+      <p class="p-hobby">Sewing</p><img class="hobby" src="images/sewing.jpg" alt="shark attack hat">
+      <p class="p-hobby">Running</p><img class="hobby" src="images/running.jpg" alt="running picture">
+    </div>
+    <div class="imgboxright">
+      <p class="p-hobby">Windsurfing</p><img class="hobby" src="images/windsurfing.jpg" alt="windsurfing practice">
+      <p class="p-hobby">Surfing</p> <img class="hobby" src="images/surfing.jpg" alt="surfing gower">
+      <p class="p-hobby">Rock Climbing</p> <img class="hobby" src="images/climbing.jpg" alt="climbing gower">
+    </div>
+    <div class="top">
+      <a href="#top">Back to top of page</a>
+    </div>
   </body>
 </html>
